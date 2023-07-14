@@ -1,0 +1,50 @@
+/* style.css */
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 350px;
+}
+
+h1,
+h2 {
+    color: #096811;
+    text-decoration: underline;
+}
+
+ul,
+ol {
+    color: #0f921a;
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+p {
+    color: #15c924;
+    font-size: 30px;
+    background-color: #ffa600;
+    width: 350px;
+    border: 0.25em solid green;
+    padding: 0.5em;
+    margin: auto;
+}
+
+.menu-container {
+    font-size: 30pt;
+    color: #fff;
+    background-color: #202072; /* Blue */
+    padding: 20px 0;
+    display:flex;
+    justify-content: center;
+}
+
+.menu {
+    border: 1px solid #fff; /* for debugging */;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
